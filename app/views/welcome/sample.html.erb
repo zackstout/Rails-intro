@@ -1,0 +1,13 @@
+<h1>Welcome#sample</h1>
+<p>Find me in app/views/welcome/sample.html.erb</p>
+
+<%= "message from controller:
+#{@cont_message}" %>
+
+<%= link_to("Index page",
+  {
+    # This line isn't necessary because we're in same directory:
+    # :controller => 'welcome',
+    :action => 'index',
+    # This is an addon:
+    :id => 5, :random => 'zack'}) %>

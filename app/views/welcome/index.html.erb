@@ -9,5 +9,17 @@
   <%= i %><br>
 <%end%>
 
+<% if(params.has_key?(:id) &&
+      params.has_key?(:random)) %><br>
+      <%= "ID : #{params[:id]}" %><br>
+      <%= "random: #{params[:random]}" %> <br>
+<% end %>
+
+
+
+
+
+
+
 
 <!-- hi -->
